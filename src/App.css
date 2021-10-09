@@ -1,0 +1,357 @@
+@import "assets/Raleway.css";
+@import "assets/Open_Sans.css";
+
+a:hover {
+  text-decoration: none !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1db5a3;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.App {
+  text-align: center;
+  min-height: 90vh;
+  display: flex;
+  position: relative;
+  z-index: 0;
+  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+  padding: 0px;
+}
+
+.body {
+  font-family: Raleway;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.custom-nav {
+  background-color: white;
+  box-shadow: 0px 0px 7px black;
+  font-family: Raleway;
+}
+
+#nav-brand {
+  letter-spacing: 1vw;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.nav-button {
+  font-weight: 200;
+  border: 1px solid black;
+  color: black !important;
+  font-size: 1.25em;
+}
+
+.nav-button:hover {
+  background-color: #26ceba;
+  /*background-color: #4f000b;*/
+  /*background-color: #2b2b2b;*/
+  color:white !important;
+  border-color:#888;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.home-bg {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.strong-title {
+  color: white;
+  font-family: Raleway;
+  font-weight: 300 !important;
+  text-shadow: 1px 1px 1px black;
+}
+
+.light-title {
+  color: white;
+  font-family: Raleway;
+  font-weight: 200 !important;
+}
+
+.jumbo-card {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+.display-1 {
+  font-size: calc(1.725rem + 5.7vw) !important;
+}
+
+.display-2 {
+  font-size: calc(1.375rem + 3.6vw) !important;
+}
+
+.display-3 {
+  font-size: calc(1.115rem + 2.25vw) !important;
+}
+
+.display-4 {
+  font-size: calc(1.000rem + 1.75vw) !important;
+}
+
+.white-p-text {
+  color: white;
+  font-family: "Open Sans";
+}
+
+.button-light {
+  font-family: Raleway;
+  font-weight: 100 !important;
+  background-color: #1db5a3 !important;
+  border: 1px #1db5a3 solid !important;
+  border-radius: 2px !important;
+  font-size: 1.2em !important;
+  color: white !important;
+}
+
+.button-light:hover {
+  background-color: white !important;
+  border: 1px black solid !important;
+  color:black !important;
+}
+
+.button-dark {
+  font-family: Raleway;
+  font-weight: 100 !important;
+  background-color: #2b2b2b !important;
+  border: 1px #2b2b2b solid !important;
+  border-radius:  2px !important;
+  font-size: 1.2em !important;
+  color: white !important;
+}
+
+.button-dark:hover {
+  background-color: white !important;
+  color: black !important;
+  border: 1px black solid !important;
+}
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
+.horizontal-line {
+  border-bottom: 1px solid black;
+}
+
+.horizontal-line-white {
+  border-bottom: 1px solid white;
+}
+
+.horizontal-divider {
+  border-bottom: 0.5px solid black;
+}
+
+.footer-text {
+  color: #1db5a3;
+  font-size: 1.5em;
+  font-family: "Open Sans";
+  font-weight: 100;
+}
+
+.footer-text:hover {
+  text-decoration: none;
+  color: gray
+}
+
+.post-stream-heading {
+  font-family: Raleway;
+  font-size: calc(2.2rem + 1.4vw) !important;
+}
+
+.post-title {
+  font-family: Raleway;
+  font-size: calc(1.7rem + 1.1vw) !important;
+  color: black;
+}
+
+.post-subtitle {
+  font-family: Raleway;
+  font-size: calc(1.2rem + 0.4vw) !important;
+  color: #3b3b3b;
+}
+
+.post-text {
+  font-family: "Open Sans";
+  color: black;
+  font-weight: 100;
+  white-space: pre-line;
+}
+
+.invert {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+  -o-filter: invert(100%);
+  -ms-filter: invert(100%);
+}
+
+.contact-info {
+  font-family: Raleway;
+  color: white !important;
+  font-size: calc(0.25rem + 0.75vw) !important;
+}
+
+.contact-info:hover {
+  color: #1db5a3 !important;
+
+}
+
+.post-media {
+  max-height: 75vh;
+}
+
+.icon:hover {
+  filter: invert(0%);
+  -webkit-filter: invert(0%);
+  -moz-filter: invert(0%);
+  -o-filter: invert(0%);
+  -ms-filter: invert(0%);
+}
+
+.icon-2:hover {
+  filter: invert(80%);
+  -webkit-filter: invert(80%);
+  -moz-filter: invert(80%);
+  -o-filter: invert(80%);
+  -ms-filter: invert(80%);
+}
+
+.icon {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  .resize-footer {
+    font-size: 0.4rem !important;
+  }
+  .footer-text {
+    font-size: 0.9em;
+  }
+}
+
+/* ANIMATIONS */
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+  
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+  
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+  
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.fly-in {
+  animation: flyIn ease 2s;
+  -webkit-animation: flyIn ease 2s;
+  -moz-animation: flyIn ease 2s;
+  -o-animation: flyIn ease 2s;
+  -ms-animation: flyIn ease 2s;
+}
+
+@keyframes flyIn {
+  0% {
+    transform: translateY(10vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes flyIn {
+  0% {
+    transform: translateY(10vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+  
+@-webkit-keyframes flyIn {
+  0% {
+    transform: translateY(10vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+  
+@-o-keyframes flyIn {
+  0% {
+    transform: translateY(10vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+  
+@-ms-keyframes flyIn {
+  0% {
+    transform: translateY(10vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.test {
+  border: 1px black solid !important;
+}
